@@ -1,0 +1,116 @@
+[2025-06-20 22:32:49,929 | TRACE] int main(int, char**)(L23)  logger
+[2025-06-20 22:32:49,930 | INFO] int main(int, char**)(L25) logger test
+[2025-06-20 22:32:49,930 | WARNING] int main(int, char**)(L26) logger test
+[2025-06-20 22:32:49,930 | ERROR] int main(int, char**)(L27) logger test
+[2025-06-20 22:32:50,493 | INFO] void HomeWindow::resizeUI()(L189) width: 1040
+[2025-06-20 22:32:57,003 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-06-20 22:33:00,166 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-06-20 22:33:35,066 | INFO] IjkMediaPlayer::IjkMediaPlayer()(L8)  IjkMediaPlayer()
+ 
+[2025-06-20 22:33:35,066 | INFO] int FFPlayer::ffp_create()(L40) ffp_create
+
+[2025-06-20 22:33:35,075 | INFO] void FFPlayer::ffp_set_playback_volume(int)(L941) audio_volume: 64
+[2025-06-20 22:33:35,075 | INFO] int HomeWindow::message_loop(void*)(L104) message_loop into
+[2025-06-20 22:33:35,076 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 10
+[2025-06-20 22:33:35,076 | INFO] int HomeWindow::message_loop(void*)(L116)  FFP_MSG_FLUSH
+[2025-06-20 22:33:35,096 | INFO] int FFPlayer::read_thread()(L1063) read_thread FFP_MSG_OPEN_INPUT 0x76419d8
+[2025-06-20 22:33:35,116 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 407
+[2025-06-20 22:33:35,116 | WARNING] int HomeWindow::message_loop(void*)(L157)  default 407
+[2025-06-20 22:33:35,117 | INFO] int FFPlayer::read_thread()(L1082) read_thread FFP_MSG_FIND_STREAM_INFO 0x76419d8
+[2025-06-20 22:33:35,136 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 408
+[2025-06-20 22:33:35,136 | INFO] int HomeWindow::message_loop(void*)(L124)  FFP_MSG_FIND_STREAM_INFO
+[2025-06-20 22:33:35,277 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 1
+[2025-06-20 22:33:35,277 | INFO] int Decoder::audio_thread(void*)(L1649)  into 
+[2025-06-20 22:33:35,277 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 1
+[2025-06-20 22:33:35,278 | INFO] int FFPlayer::read_thread()(L1104) read_thread FFP_MSG_COMPONENT_OPEN 0x76419d8
+[2025-06-20 22:33:35,278 | INFO] int FFPlayer::read_thread()(L1112) read_thread FFP_MSG_PREPARED 0x76419d8
+[2025-06-20 22:33:35,278 | INFO] int Decoder::video_thread(void*)(L1701)  into 
+[2025-06-20 22:33:35,280 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 409
+[2025-06-20 22:33:35,280 | WARNING] int HomeWindow::message_loop(void*)(L157)  default 409
+[2025-06-20 22:33:35,300 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L159)  FFP_MSG_PREPARED
+[2025-06-20 22:33:35,300 | INFO] int HomeWindow::message_loop(void*)(L119)  FFP_MSG_PREPARED
+[2025-06-20 22:33:35,320 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L163)  FFP_REQ_START
+[2025-06-20 22:33:35,320 | INFO] int FFPlayer::ffp_start_l()(L64) ffp_start_l
+[2025-06-20 22:33:35,320 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 700
+[2025-06-20 22:33:35,320 | INFO] void HomeWindow::on_updatePlayOrPause(int)(L417) play state: 4
+[2025-06-20 22:33:37,307 | INFO] int HomeWindow::seek(int)(L287) cur value 1336
+[2025-06-20 22:33:37,316 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L184) ijkmp_get_msg: FFP_REQ_SEEK
+
+[2025-06-20 22:33:37,316 | INFO] int FFPlayer::ffp_seek_to_l(long int)(L781) seek to:  2642
+[2025-06-20 22:33:37,321 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 2
+[2025-06-20 22:33:37,321 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 2
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,324 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:37,336 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L179) ijkmp_get_msg: FFP_MSG_SEEK_COMPLETE
+
+[2025-06-20 22:33:38,705 | INFO] int HomeWindow::seek(int)(L287) cur value 3053
+[2025-06-20 22:33:38,710 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L184) ijkmp_get_msg: FFP_REQ_SEEK
+
+[2025-06-20 22:33:38,710 | INFO] int FFPlayer::ffp_seek_to_l(long int)(L781) seek to:  6037
+[2025-06-20 22:33:38,719 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 3
+[2025-06-20 22:33:38,719 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 3
+[2025-06-20 22:33:38,724 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,725 | INFO] int audio_decode_frame(FFPlayer*)(L338) 0, failed: 0
+[2025-06-20 22:33:38,730 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L179) ijkmp_get_msg: FFP_MSG_SEEK_COMPLETE
+
+[2025-06-20 22:33:50,360 | TRACE] int main(int, char**)(L23)  logger
+[2025-06-20 22:33:50,361 | INFO] int main(int, char**)(L25) logger test
+[2025-06-20 22:33:50,361 | WARNING] int main(int, char**)(L26) logger test
+[2025-06-20 22:33:50,361 | ERROR] int main(int, char**)(L27) logger test
+[2025-06-20 22:33:50,735 | INFO] void HomeWindow::resizeUI()(L189) width: 1040
+[2025-06-20 22:33:52,050 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-06-20 22:33:52,050 | INFO] IjkMediaPlayer::IjkMediaPlayer()(L8)  IjkMediaPlayer()
+ 
+[2025-06-20 22:33:52,050 | INFO] int FFPlayer::ffp_create()(L40) ffp_create
+
+[2025-06-20 22:33:52,050 | INFO] void FFPlayer::ffp_set_playback_volume(int)(L941) audio_volume: 64
+[2025-06-20 22:33:52,051 | INFO] int HomeWindow::message_loop(void*)(L104) message_loop into
+[2025-06-20 22:33:52,051 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 10
+[2025-06-20 22:33:52,051 | INFO] int HomeWindow::message_loop(void*)(L116)  FFP_MSG_FLUSH
+[2025-06-20 22:33:52,071 | INFO] int FFPlayer::read_thread()(L1063) read_thread FFP_MSG_OPEN_INPUT 0x7734b70
+[2025-06-20 22:33:52,090 | INFO] int FFPlayer::read_thread()(L1082) read_thread FFP_MSG_FIND_STREAM_INFO 0x7734b70
+[2025-06-20 22:33:52,091 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 407
+[2025-06-20 22:33:52,091 | WARNING] int HomeWindow::message_loop(void*)(L157)  default 407
+[2025-06-20 22:33:52,112 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 408
+[2025-06-20 22:33:52,112 | INFO] int HomeWindow::message_loop(void*)(L124)  FFP_MSG_FIND_STREAM_INFO
+[2025-06-20 22:33:52,297 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 1
+[2025-06-20 22:33:52,297 | INFO] int Decoder::audio_thread(void*)(L1649)  into 
+[2025-06-20 22:33:52,297 | INFO] int packet_queue_put_private(PacketQueue*, AVPacket*)(L21) q->serial = 1
+[2025-06-20 22:33:52,297 | INFO] int Decoder::video_thread(void*)(L1701)  into 
+[2025-06-20 22:33:52,297 | INFO] int FFPlayer::read_thread()(L1104)  into read_thread FFP_MSG_COMPONENT_OPEN 0x7734b70
+[2025-06-20 22:33:52,297 | INFO] int FFPlayer::read_thread()(L1112) read_thread FFP_MSG_PREPARED 0x7734b70
+[2025-06-20 22:33:52,303 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 409
+[2025-06-20 22:33:52,306 | WARNING] int HomeWindow::message_loop(void*)(L157)  default 409
+[2025-06-20 22:33:52,326 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L159)  FFP_MSG_PREPARED
+[2025-06-20 22:33:52,326 | INFO] int HomeWindow::message_loop(void*)(L119)  FFP_MSG_PREPARED
+[2025-06-20 22:33:52,346 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L163)  FFP_REQ_START
+[2025-06-20 22:33:52,346 | INFO] int FFPlayer::ffp_start_l()(L64) ffp_start_l
+[2025-06-20 22:33:52,346 | INFO] int IjkMediaPlayer::ijkmp_get_msg(AVMessage*, int)(L204)  default 700
+[2025-06-20 22:33:52,347 | INFO] void HomeWindow::on_updatePlayOrPause(int)(L417) play state: 4
+[2025-06-20 22:34:12,641 | TRACE] int main(int, char**)(L23)  logger
+[2025-06-20 22:34:12,641 | INFO] int main(int, char**)(L25) logger test
+[2025-06-20 22:34:12,641 | WARNING] int main(int, char**)(L26) logger test
+[2025-06-20 22:34:12,641 | ERROR] int main(int, char**)(L27) logger test
+[2025-06-20 22:34:13,001 | INFO] void HomeWindow::resizeUI()(L189) width: 1040
+[2025-06-20 22:35:32,291 | TRACE] int main(int, char**)(L23)  logger
+[2025-06-20 22:35:32,291 | INFO] int main(int, char**)(L25) logger test
+[2025-06-20 22:35:32,291 | WARNING] int main(int, char**)(L26) logger test
+[2025-06-20 22:35:32,291 | ERROR] int main(int, char**)(L27) logger test
+[2025-06-20 22:35:32,664 | INFO] void HomeWindow::resizeUI()(L189) width: 1040
+[2025-06-20 22:43:45,511 | TRACE] int main(int, char**)(L23)  logger
+[2025-06-20 22:43:45,513 | INFO] int main(int, char**)(L25) logger test
+[2025-06-20 22:43:45,513 | WARNING] int main(int, char**)(L26) logger test
+[2025-06-20 22:43:45,513 | ERROR] int main(int, char**)(L27) logger test
+[2025-06-20 22:43:45,859 | INFO] void HomeWindow::resizeUI()(L189) width: 1040

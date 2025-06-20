@@ -1,0 +1,12 @@
+[2025-05-13 17:03:12,418 | TRACE] int main(int, char**)(L23)  logger
+[2025-05-13 17:03:12,418 | INFO] int main(int, char**)(L25) logger test
+[2025-05-13 17:03:12,418 | WARNING] int main(int, char**)(L26) logger test
+[2025-05-13 17:03:12,418 | ERROR] int main(int, char**)(L27) logger test
+[2025-05-13 17:03:12,883 | INFO] void HomeWindow::resizeUI()(L189) width: 1040
+[2025-05-13 17:03:14,866 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:16,314 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:16,692 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:16,892 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:17,052 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:17,244 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
+[2025-05-13 17:03:17,403 | INFO] void HomeWindow::on_playOrPauseBtn_clicked()(L389) OnPlayOrPause call
