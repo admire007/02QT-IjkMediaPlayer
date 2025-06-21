@@ -1,5 +1,12 @@
 # NovaPlay
 
+[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![language](https://img.shields.io/badge/language-C%2B%2B-blue)](https://isocpp.org/)
+[![Qt](https://img.shields.io/badge/Qt-5.15%2B-brightgreen)](https://www.qt.io/)
+[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey)]()
+[![version](https://img.shields.io/badge/version-1.0.0-orange)]()
+[![build](https://img.shields.io/badge/build-passing-success)]()
+
 ## 📑 目录
 - [📋 项目简介](#项目简介)
 - [✨ 核心功能](#核心功能)
